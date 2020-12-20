@@ -1,0 +1,8 @@
+@hostname = localhost
+@port = 3000
+@prefix = api/v1
+@host = {{hostname}}:{{port}}/{{prefix}}
+@contentType = application/json
+
+### hello
+GET http://{{host}}
